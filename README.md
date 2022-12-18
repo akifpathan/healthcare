@@ -87,6 +87,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
+- <img src="logos/solidity.png" width="100" height = "30">
 - [![Next][next.js]][next-url]
 - [![React][react.js]][react-url]
 - [![Vue][vue.js]][vue-url]

@@ -543,7 +543,7 @@ function App() {
         <AppBar position="static" style={{ marginBottom: "20px" }}>
           <Toolbar>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              BeeCertify
+              Health Care
             </Typography>
             {page !== "approve" && (
               <>
@@ -575,7 +575,7 @@ function App() {
               account: {account.substring(0, 20)}... <br />
               balance: {balance / 1e18} ETH
             </p>
-            {/* <Button color="inherit">Login</Button> */}
+            {/*<Button color="inherit">Login</Button>*/}
           </Toolbar>
         </AppBar>
 

@@ -44,8 +44,7 @@ To get a local copy up and running follow these simple example steps.
 - Clone the project
 
 ```bash
-git clone
-https://github.com/akifpathan/healthcare
+git clone https://github.com/akifpathan/healthcare
 ```
 
 - Go to the project directory

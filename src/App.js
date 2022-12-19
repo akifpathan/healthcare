@@ -313,7 +313,7 @@ function App() {
               <CardContent sx={{ p: 4 }}>
                 <Typography
                   gutterBottom
-                  variant="h3"
+                  variant="h4"
                   component="div"
                   style={{ textAlign: "right" }}
                   color="text.secondary"
@@ -322,7 +322,7 @@ function App() {
                 </Typography>
                 <Typography
                   gutterBottom
-                  variant="h2"
+                  variant="h4"
                   component="div"
                   sx={{ ml: 2 }}
                 >
@@ -333,11 +333,11 @@ function App() {
                 </Typography>
                 <Typography
                   gutterBottom
-                  variant="h2"
+                  variant="h5"
                   component="div"
                   sx={{ ml: 2 }}
                 >
-                  {myCertificate.courseTitle}
+                  {myCertificate.courseTitle} Course
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary">
                   The course was authorized by National Health Institute and

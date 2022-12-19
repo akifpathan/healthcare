@@ -4,7 +4,7 @@
 
 In this project, I tried to create a simple **BLOCKCHAIN** app where
 
-- a medical student can apply for a certificate
+- A medical student can apply for a certificate
 - Authority can verify a student who completed the course
 - Anyone can check whether a doctor is verified or not
 
@@ -24,6 +24,8 @@ In this project, I tried to create a simple **BLOCKCHAIN** app where
   - `finishCourse` - add unverified certificate data on the blockchain
   - `approveCertificate` - approve pending unverified certificate in the blockchain (only admin can do it)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Contracts
 
 Contracts are located in the `src/contracts` folder
@@ -32,6 +34,8 @@ Contracts are located in the `src/contracts` folder
 - `Registry.sol`
 
 The ABIs for the contracts are located in `src/abis` folder
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -84,6 +88,8 @@ REGISTRY_CONTRACT_ADDRESS=<here>
 
 - Should get prompted by `metamask` to connect to the website. Accept it and you're good to go!
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- USAGE EXAMPLES -->
 
 ## Usage
@@ -91,6 +97,8 @@ REGISTRY_CONTRACT_ADDRESS=<here>
 Once the server is up, you can use that and play with it. All the data will be added on the blockchain.
 
 If you want to change the courses, just edit the `App.js` file in `src` folder.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
@@ -107,6 +115,17 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Your Name - [Ahanaf Akif Pathan](https://facebook.com/ahanafakif01) - ahanafakif01@gmail.com
 
 Project Link: [https://github.com/akifpathan/healthcare](https://github.com/akifpathan/healthcare)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+For developing this preject, I have taken inspiration from these resources. You can check these too!!
+
+- [property-dapp](https://github.com/Tahmeed156/property-dapp)
+- [BeeCertifier](https://github.com/hmasum52/BUET-Beecrypt-BeeCertifier)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

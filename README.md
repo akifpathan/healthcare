@@ -8,11 +8,15 @@ In this project, I tried to create a simple **BLOCKCHAIN** app where
 - Authority can verify a student who completed the course
 - Anyone can check whether a doctor is verified or not
 
+---
+
 ### Built With
 
 - [![solidity][solidity.sol]][solidity-url]
 - [![React][react.js]][react-url]
 - [![Web3][web3.js]][web3-url]
+
+---
 
 ### Frontend
 
@@ -26,6 +30,8 @@ In this project, I tried to create a simple **BLOCKCHAIN** app where
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
+
 ### Contracts
 
 Contracts are located in the `src/contracts` folder
@@ -37,11 +43,15 @@ The ABIs for the contracts are located in `src/abis` folder
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
+
 <!-- GETTING STARTED -->
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+
+---
 
 ### Prerequisites
 
@@ -90,6 +100,8 @@ REGISTRY_CONTRACT_ADDRESS=<here>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
+
 <!-- USAGE EXAMPLES -->
 
 ## Usage
@@ -99,6 +111,8 @@ Once the server is up, you can use that and play with it. All the data will be a
 If you want to change the courses, just edit the `App.js` file in `src` folder.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- CONTRIBUTING -->
 
@@ -117,6 +131,8 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
+
 <!-- Possible Updates -->
 
 ## Possible Updates
@@ -129,6 +145,8 @@ Here are some modifications that can be done on this project
 - Add option so that admin can add a course interactively (currently, we can add a course only by modifying the `App.js` file)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
+
 <!-- LICENSE -->
 
 ## License
@@ -137,15 +155,19 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
+
 <!-- CONTACT -->
 
 ## Contact
 
-Your Name - [Ahanaf Akif Pathan](https://facebook.com/ahanafakif01) - ahanafakif01@gmail.com
+[Ahanaf Akif Pathan](https://facebook.com/ahanafakif01) - ahanafakif01@gmail.com
 
-Project Link: [https://github.com/akifpathan/healthcare](https://github.com/akifpathan/healthcare)
+Project Link: [HealthCare](https://github.com/akifpathan/healthcare)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- ACKNOWLEDGMENTS -->
 

@@ -51,8 +51,6 @@ The ABIs for the contracts are located in `src/abis` folder
 
 To get a local copy up and running follow these simple example steps.
 
----
-
 ### Prerequisites
 
 - Clone the project

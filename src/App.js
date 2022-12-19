@@ -129,7 +129,7 @@ function App() {
   };
 
   const getInitialData = async () => {
-    // Get list of properties & purchases
+    // Get list of certificates
     try {
       let wMyCertificates = await registerSol.methods.getCertificates().call();
       setMyCertificates(wMyCertificates.filter((c) => c.owner === account));
@@ -145,7 +145,7 @@ function App() {
     }
   };
 
-  const buyCourse = async (course) => {
+  const enrollCourse = async (course) => {
     const loadId = toast.loading("Paying Fee and Enrolling for the Course...");
     console.log(course.fee);
     console.log(course.issuer);
@@ -252,7 +252,7 @@ function App() {
                   <Button
                     variant="contained"
                     color="primary"
-                    onClick={() => buyCourse(course)}
+                    onClick={() => enrollCourse(course)}
                   >
                     Enroll
                   </Button>

@@ -34,32 +34,35 @@ let certificateSol, registerSol;
 function App() {
   const [courses, setCourses] = useState([
     {
-      title: "Management for Engineers",
-      description: "Manage an industry",
+      title: "Community Medicine",
+      description:
+        "Community Medicine is a bridge between public health and clinical medicine.",
       fee: 10,
       issuer: env.ADMIN_ADDRESS,
-      issuer_name: "Dr. Helal",
+      issuer_name: "Blockchain Medical College",
     },
     {
-      title: "ComputerVision-101",
-      description: "Learn Computer Vision",
+      title: "Forensic Medicine",
+      description: "This course deals with interaction of medicine and law.",
       fee: 11,
       issuer: env.ADMIN_ADDRESS,
-      issuer_name: "Dr. Mehedi",
+      issuer_name: "Blockchain Medical College",
     },
     {
-      title: "Blockchain-101",
-      description: "Learn Blockchain Basics",
+      title: "Surgery",
+      description:
+        "The aim of this course is to provide community oriented and need based education so as to produce basic doctors who can meet the demands of the country.",
       fee: 5,
       issuer: env.ADMIN_ADDRESS,
-      issuer_name: "Pathan",
+      issuer_name: "Blockchain Medical College",
     },
     {
-      title: "AI-101",
-      description: "Learn AI",
+      title: "Pathology",
+      description:
+        "The medical graduate is to provide comprehensive knowledge of the cause and mechanism of disease, in order to enable them to achieve complete understanding of the clinical manifestation and natural history of the disease.",
       fee: 7,
       issuer: env.ADMIN_ADDRESS,
-      issuer_name: "RMEDU",
+      issuer_name: "Blockchain Medical College",
     },
   ]);
 
@@ -97,7 +100,6 @@ function App() {
         setAccount(accounts[0]);
         setBalance(balance);
         if (accounts[0] === env.ADMIN_ADDRESS) {
-          // Coursera
           setPage("approve");
         }
       } else {
@@ -246,7 +248,7 @@ function App() {
                     fee: {course.fee || "None"}
                   </Typography>
                   <Typography variant="body1" sx={{ mb: 2 }}>
-                    Course By: {course.issuer_name}
+                    Offered By: {course.issuer_name}
                   </Typography>
 
                   <Button
@@ -263,7 +265,7 @@ function App() {
         </Container>
 
         <Typography variant="h4" gutterBottom component="div" sx={{ mb: 4 }}>
-          My Courses
+          Enrolled Courses
         </Typography>
 
         <Container maxWidth="lg" sx={{ mb: 4 }}>
@@ -287,7 +289,7 @@ function App() {
                     onClick={() => finishCourse(course)}
                     sx={{ my: 2 }}
                   >
-                    Finish
+                    Finish and apply for certificate
                   </Button>
                 </Item>
               </Grid>
@@ -304,8 +306,8 @@ function App() {
             <Card sx={{ maxWidth: "lg" }}>
               <CardMedia
                 component="img"
-                height="140"
-                image="https://149396518.v2.pressablecdn.com/wp-content/uploads/2018/08/coursera-social-logo.png"
+                height="250"
+                image="https://www.pngplay.com/wp-content/uploads/6/Certified-Logo-PNG.png"
                 alt="green iguana"
               />
               <CardContent sx={{ p: 4 }}>
@@ -439,12 +441,6 @@ function App() {
                     Status:{" "}
                     {certificate.verified ? "Verified" : "Not Verified Yet"}
                   </Typography>
-                  <Typography variant="body1" sx={{ mb: 2 }}>
-                    Expire:{" "}
-                    {new Date(
-                      Number.parseInt(certificate.expireTs)
-                    ).toDateString()}
-                  </Typography>
 
                   <Button
                     variant="contained"
@@ -572,8 +568,7 @@ function App() {
               </>
             )}
             <p>
-              account: {account.substring(0, 20)}... <br />
-              balance: {balance / 1e18} ETH
+              account: {account.substring(0, 10)}... {account.substring(35)}
             </p>
             {/*<Button color="inherit">Login</Button>*/}
           </Toolbar>

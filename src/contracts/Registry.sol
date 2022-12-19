@@ -122,7 +122,7 @@ contract Registry {
         uint fee;
     }
 
-    mapping(address => StudentInfo[]) students; // stake sender, stacks
+    mapping(address => StudentInfo[]) students; 
     address[] studentAccounts;
 
     function addFee(string memory courseTitle, address payable receiver) public payable{

@@ -63,7 +63,7 @@ npm install
 
 - Deploy the smart contracts on Etherium or Polygon network and copy the contract address
 
-- Create a `.env` file in project root like the following and put your admin and contract addresses
+- Create a `.env` file in project root like the following and put your admin and contract addresses (without quotes)
 
 ```env
 ADMIN_ADDRESS=<here>
@@ -88,9 +88,9 @@ REGISTRY_CONTRACT_ADDRESS=<here>
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Once the server is up, you can use that and play with it. All the data will be added on the blockchain.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+If you want to change the courses, just edit the `App.js` file in `src` folder.
 
 <!-- LICENSE -->
 

@@ -73,7 +73,11 @@ cd healthcare
 npm install
 ```
 
+- Install `metamask`, setup account
+
 - Deploy the smart contracts on Etherium or Polygon network and copy the contract address
+
+- Set network on `metamask` to the network where you deployed you smart contracts . Might need to enable test networks in settings.
 
 - Create a `.env` file in project root like the following and put your admin and contract addresses (without quotes)
 
@@ -82,9 +86,6 @@ ADMIN_ADDRESS=<here>
 CERTIFICATE_CONTRACT_ADDRESS=<here>
 REGISTRY_CONTRACT_ADDRESS=<here>
 ```
-
-- Install `metamask`, setup account
-- Set network on `metamask` to the network where you deployed you smart contracts . Might need to enable test networks in settings.
 
 - Start the server
 

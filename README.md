@@ -198,7 +198,7 @@ For developing this preject, I have taken inspiration from these resources. You 
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
 [gmail.ico]: https://img.shields.io/badge/gmail-FFFFFF?style=for-the-badge&logo=gmail&logoColor=#EA4335
-[gmail-url]: ahanafakif01@gmail.com
+[gmail-url]: mailto:ahanafakif01@gmail.com
 [facebook.ico]: https://img.shields.io/badge/facebook-FFFFFF?style=for-the-badge&logo=facebook&logoColor=#1877F2
 [facebook-url]: https://facebook.com/ahanafakif01
 [github.git]: https://img.shields.io/badge/github-111111?style=for-the-badge&logo=github&logoColor=#181717

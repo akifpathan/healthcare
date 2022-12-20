@@ -75,7 +75,7 @@ npm install
 
 - Install `metamask`, setup account
 
-- Deploy the smart contracts on Etherium or Polygon network and copy the contract address
+- Deploy the smart contracts on `Ethereum` or `Polygon` network and copy the contract address
 
 - Set network on `metamask` to the network where you deployed you smart contracts . Might need to enable test networks in settings.
 

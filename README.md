@@ -159,9 +159,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-[Ahanaf Akif Pathan](https://facebook.com/ahanafakif01) - ahanafakif01@gmail.com
+[![facebook][facebook.ico]][facebook-url]
+[![gmail][gmail.ico]][gmail-url]
 
-Project Link: [HealthCare](https://github.com/akifpathan/healthcare)
+## Project Link:
+
+[![HealthCare][github.git]][project-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,6 +197,12 @@ For developing this preject, I have taken inspiration from these resources. You 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
+[gmail.ico]: https://img.shields.io/badge/gmail-FFFFFF?style=for-the-badge&logo=gmail&logoColor=#EA4335
+[gmail-url]: ahanafakif01@gmail.com
+[facebook.ico]: https://img.shields.io/badge/facebook-FFFFFF?style=for-the-badge&logo=facebook&logoColor=#1877F2
+[facebook-url]: https://facebook.com/ahanafakif01
+[github.git]: https://img.shields.io/badge/github-111111?style=for-the-badge&logo=github&logoColor=#181717
+[project-url]: https://github.com/akifpathan/healthcare
 [solidity.sol]: https://img.shields.io/badge/Solidity-FFFFFF?style=for-the-badge&logo=solidity&logoColor=363636
 [solidity-url]: https://docs.soliditylang.org/en/v0.8.17/
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
